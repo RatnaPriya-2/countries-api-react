@@ -5,7 +5,7 @@ import CardContainer from "./CardContainer";
 import "../style.css";
 import Filter from "./Filter";
 import { useParams, useSearchParams } from "react-router-dom";
-import HomeShimmer from "./HomeSHimmer";
+import HomeShimmer from "./HomeShimmer";
 
 const Home = () => {
   const [allCountries, setAllCountries] = useState([]);
